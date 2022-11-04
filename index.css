@@ -1,0 +1,104 @@
+           /*base reset*/
+           *{
+            margin: 0px;
+            padding:0px;
+        }
+        body{
+            background-image: url(./coffee_beans.png) ;
+            background-color: brown ;
+            padding: 20px;
+            font-family: sans-serif;
+           
+        }
+        h1{
+          text-transform: uppercase; 
+          font-size: 40px;
+          margin-bottom: 15px;
+          margin-top: 0px;
+        }
+
+        h2{
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .established{
+            font-style: italic;
+        }
+
+        h1,h2,p {
+            text-align: center;
+        }
+
+        .menu{
+            width: 80%;
+            background-color: burlywood;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 500px;
+            padding: 20px;
+            
+        }
+        img{
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 55px;
+        }
+
+        hr{
+            border-color: brown;
+            background-color: brown;
+            height: 2px;
+            margin-bottom: 10px;
+        }
+        .bottom-line{
+            margin-top: 25px;
+        }
+        h1,h2{
+            font-family: impact, serif;
+        }
+
+        .item p{
+            font-size: 18px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+
+        .item{
+            margin-top:10px;
+        }
+
+        .flavor, .dessert{
+            text-align: left;
+            width: 75%;
+        }
+
+        .price{
+            text-align: right;
+            width: 25%;
+        }
+
+        footer{
+            font-size: 14px;
+        }
+
+        a{
+            color: black;
+        }
+
+        a:visited{
+            color: rgb(108, 108, 133);
+        }
+
+        a:hover{
+            color: brown;
+        }
+
+        a:active{
+            color:blueviolet;
+        }
+
+        .address{
+            margin-top: 10px;
+        }
